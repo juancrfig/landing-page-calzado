@@ -38,7 +38,7 @@
             <label class="label">Pais</label>
             <div class="control">
               <div class="select">
-                <select>
+                <select id="selecciones">
                     <option>Argentina</option>
                     <option>Colombia</option>
                     <option>Estados Unidos</option>
@@ -48,41 +48,28 @@
             </div>
           </div>
           
-          <div class="field">
-            <label class="label">Message</label>
+          <div class="field mt-6">
+            <label class="label">Comentarios Adicionales</label>
             <div class="control">
-              <textarea class="textarea" placeholder="Textarea"></textarea>
+              <textarea id="comentarios" class="textarea"></textarea>
             </div>
           </div>
           
-          <div class="field">
+          <div class="field mt-6">
             <div class="control">
               <label class="checkbox">
                 <input type="checkbox">
-                I agree to the <a href="#">terms and conditions</a>
+                Acepto los <a href="#">terminos y condiciones</a>
               </label>
             </div>
           </div>
           
-          <div class="field">
+          <div class="field is-grouped mt-6">
             <div class="control">
-              <label class="radio">
-                <input type="radio" name="question">
-                Yes
-              </label>
-              <label class="radio">
-                <input type="radio" name="question">
-                No
-              </label>
-            </div>
-          </div>
-          
-          <div class="field is-grouped">
-            <div class="control">
-              <button class="button is-link">Submit</button>
+              <button class="button is-link">Enviar</button>
             </div>
             <div class="control">
-              <button class="button is-link is-light">Cancel</button>
+              <button class="button"><a href="../index.html">Volver</a></button>
             </div>
           </div>
       </form>

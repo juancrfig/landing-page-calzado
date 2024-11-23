@@ -20,7 +20,7 @@
 
 body {    
     background-color: var(--naranja);
-    height: 100vh;
+    height: 120vh;
     padding-top: 10%;
 }
 
@@ -50,6 +50,22 @@ body {
     color: var(--gris);
 }
 
-#form-box .select option {
-    background-color: #EB5E28;
+#selecciones,
+#comentarios {
+    background-color: var(--piel);
+    color: var(--gris);
+}
+
+#form-box .button {
+    background-color: var(--gris);
+    border-radius: 40px;
+    transition: scale 300ms ease;
+}
+
+#form-box a {
+    color: inherit;
+}
+
+#form-box .button:hover {
+    scale: 1.1;
 }
