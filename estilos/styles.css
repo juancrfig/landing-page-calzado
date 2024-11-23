@@ -5,3 +5,104 @@
     --negro: #252422;
     --naranja: #EB5E28;
 }
+
+html {
+    height: 200vh;
+    background-color: white;
+}
+
+.body {
+
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    padding: 0;
+    border: 2px solid green;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 12vh;
+    background-color: #403D39;
+    margin: 0;
+}
+
+.menu h1 {
+    top: 10vh;
+    font-size: 7vw;
+    color: black;
+}
+
+.logo {
+    position: relative;
+    width: 15vw;
+    right: 6vw;
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    bottom: -2vw;
+    background-color: #403D39;
+    height: 13vh;
+    z-index: 99999;
+}
+
+
+.card:hover {
+    transform: translateY(-1.3vw);
+    box-shadow: 0 20px 30px #7a7a7a;
+    animation-name: animation;
+    animation-duration: 0.5s;
+}
+
+.precio {
+    position: relative;
+    z-index: 999;
+    color: black;
+    display: flex;
+    top: 50vw;
+    left: 2vw;
+    font-size: 7vw;
+}
+
+/* . button {
+    width: 100vw;
+    border-radius: 60vw;
+
+} */
+
+main {
+    position: absolute;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+    position: relative;
+    right: 6vw;
+    top: 15vw;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 96%;
+    left: 10vw;
+    
+}
+
+.card {
+    background-color: #252422;
+    width: 85%;
+    left: 7vw;
+    margin: 2vw;
+}
+
