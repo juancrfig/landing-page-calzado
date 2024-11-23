@@ -6,6 +6,73 @@
     --naranja: #EB5E28;
 }
 
+/*-----------------------------------------------*/
+/*        ESTILOS DE LA PAGINA FORMULARIO        */
+/*-----------------------------------------------*/
+
+
+/*--------------- ANIMACIONES--------------------*/
+
+
+
+/* ----------------------------------------------- */
+
+
+body {    
+    background-color: var(--naranja);
+    height: 140vh;
+    padding-top: 5vw;
+}
+
+
+/*--------------------------------------------------*/
+/*                DISEÑO CAJA PRINCIPAL             */
+/*--------------------------------------------------*/
+
+#form-box {
+    background-color: var(--blanco);
+    border-radius: 50px;
+    margin: auto;
+    width: 80vw;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 1);
+    
+}
+
+#form-box .label {
+    color: var(--negro);
+}
+
+#form-box .input {
+    background-color: var(--piel);
+    border-radius: 50px;
+    color: var(--gris);
+    max-width: 500px;
+}
+
+#form-box .input::placeholder {
+    color: var(--gris);
+}
+
+#selecciones,
+#comentarios {
+    background-color: var(--piel);
+    color: var(--gris);
+}
+
+#form-box .button {
+    background-color: var(--gris);
+    border-radius: 40px;
+    transition: scale 300ms ease;
+}
+
+#form-box button a {
+    color: inherit;
+}
+
+#form-box .button:hover {
+    scale: 1.1;
+}
+
 html {
     height: 200vh;
     background-color: #EB5E28;
