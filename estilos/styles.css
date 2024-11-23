@@ -20,8 +20,8 @@
 
 body {    
     background-color: var(--naranja);
-    height: 120vh;
-    padding-top: 10%;
+    height: 140vh;
+    padding-top: 5vw;
 }
 
 
@@ -34,6 +34,8 @@ body {
     border-radius: 50px;
     margin: auto;
     width: 80vw;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 1);
+    
 }
 
 #form-box .label {
@@ -44,6 +46,7 @@ body {
     background-color: var(--piel);
     border-radius: 50px;
     color: var(--gris);
+    max-width: 500px;
 }
 
 #form-box .input::placeholder {
@@ -62,7 +65,7 @@ body {
     transition: scale 300ms ease;
 }
 
-#form-box a {
+#form-box button a {
     color: inherit;
 }
 
