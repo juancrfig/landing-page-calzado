@@ -20,8 +20,9 @@
 
 body {    
     background-color: var(--naranja);
-    height: 140vh;
+    height: 200vh;
     padding-top: 5vw;
+    font-family: "Sour Gummy";
 }
 
 
@@ -72,6 +73,11 @@ body {
 #form-box .button:hover {
     scale: 1.1;
 }
+
+
+/*-----------------------------------------------*/
+/*        ESTILOS DE LA PAGINA PRINCIPAL         */
+/*-----------------------------------------------*/
 
 html {
     height: 200vh;
@@ -137,12 +143,6 @@ footer {
     left: 2vw;
     font-size: 7vw;
 }
-
-/* . button {
-    width: 100vw;
-    border-radius: 60vw;
-
-} */
 
 main {
     position: absolute;
