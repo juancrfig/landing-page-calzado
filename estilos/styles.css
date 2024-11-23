@@ -99,8 +99,12 @@ html {
     justify-content: center;
     width: 100vw;
     height: 12vh;
-    background-color: #403D39;
     margin: 0;
+}
+
+#titulo {
+        color: var(--blanco);
+        font-size: clamp(4rem, 8vw + 1rem, 8rem);
 }
 
 .menu h1 {
