@@ -1,0 +1,55 @@
+:root {
+    --blanco: #FFFCF2;
+    --piel: #ccc5b9;
+    --gris: #403D39;
+    --negro: #252422;
+    --naranja: #EB5E28;
+}
+
+/*-----------------------------------------------*/
+/*        ESTILOS DE LA PAGINA FORMULARIO        */
+/*-----------------------------------------------*/
+
+
+/*--------------- ANIMACIONES--------------------*/
+
+
+
+/* ----------------------------------------------- */
+
+
+body {    
+    background-color: var(--naranja);
+    height: 100vh;
+    padding-top: 10%;
+}
+
+
+/*--------------------------------------------------*/
+/*                DISEÑO CAJA PRINCIPAL             */
+/*--------------------------------------------------*/
+
+#form-box {
+    background-color: var(--blanco);
+    border-radius: 50px;
+    margin: auto;
+    width: 80vw;
+}
+
+#form-box .label {
+    color: var(--negro);
+}
+
+#form-box .input {
+    background-color: var(--piel);
+    border-radius: 50px;
+    color: var(--gris);
+}
+
+#form-box .input::placeholder {
+    color: var(--gris);
+}
+
+#form-box .select option {
+    background-color: #EB5E28;
+}
