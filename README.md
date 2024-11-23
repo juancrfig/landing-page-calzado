@@ -7,11 +7,15 @@
 
 ## Maquetacion inicio
 
-Lo primero que se realizo fue el diseño de como se veria la pagina inicial
+Lo primero que se realizó fue el diseño de como se vería la pagina inicial
 
 https://www.canva.com/design/DAGXQNXSPOo/PjR4y2RdsT2RZcqcxBfShw/edit?utm_content=DAGXQNXSPOo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-luego se realizo la creacion de inicio, creando el menu, el main con las cuatro cars con los productos y precios, y con su footer con los contactos
+Luego se realizó la creación de inicio, creando el menu, el main con las cuatro cards con los productos y precios, y con su footer con los contactos.
+
+
+---
+
 
 ### Comandos por Brayan Vera
 
@@ -24,8 +28,8 @@ luego se realizo la creacion de inicio, creando el menu, el main con las cuatro 
 - git push: Lo usé para enviar al repositorio remoto todos los commits registrados en el repositorio local.
 
 
-
 ---
+
 
 ### Comandos por Juan Figueroa
 
