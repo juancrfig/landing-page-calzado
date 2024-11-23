@@ -45,6 +45,10 @@ el area del repositorio remoto.
 - **git fetch**: Lo usé para actualizar la metadata del repositorio en el que me encontraba posicionado. Esto me permitió ver los cambios en los archivos sin descargar los cambios en sí.
 - **git pull**: Lo usé para descargar los ultimos cambios de una rama a mi repositorio local, y así poder trabajar con la ultima versión del projecto.
 
+
+---
+
+
 #### Comandos utilizados al momento de crear la estructura del directorio
 
 - **mkdir**: Para crear carpetas
@@ -52,7 +56,6 @@ el area del repositorio remoto.
 - **cd**: Para navegar entre diferentes carpetas
 - **ls**: Para revisar que archivos se encuentran en las carpetas
 
----
 
 ### Buenas Practicas a la Hora de Realizar un Merge
 
